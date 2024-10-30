@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles2.css">
+    <title>Interests</title>
+
+    <div class="nav">
+        <div class="nav-icon"></div>
+        <a href="homebutton">Home</a>
+        <a href="sign-out-button">Log Out</a>
+        <a href="Download-button">Dowload Work</a>
+        <a href="Employee-button">Meet the Staff</a>
+        <a href="Contact-Button">Contact us</a>
+    
+    </div>
+    
+
+   
+</head>
+<div class="header">ArchiLink</div>
+<h1>Help us to figure out a little bit about you! What architectural style do you focus on?
+</h1>
+
+<body>
+    
+<h2>
+    <div class="content">
+        <div id="message">What type of architecture are you into?!</div>
+</h2 class="h2-page2">
+<button class="button" onclick="showInterest('Modern Architecture')">Modern Architecture</button>
+<button class="button" onclick="showInterest('Classical Architecture')">Classical Architecture</button>
+<button class="button" onclick="showInterest('Gothic Architecture')">Gothic Architecture</button>
+<button class="button" onclick="showInterest('Brutalist Architecture')">Brutalist Architecture</button>
+<button class="button" onclick="showInterest('Baroque Architecture')">Baroque Architecture</button>
+<button class="button" onclick="showInterest('Renaissance Architecture')">Renaissance Architecture</button>
+<button class="button" onclick="showInterest('Art Deco Architecture')">Art Deco Architecture</button>
+<button class="button" onclick="showInterest('Neoclassical Architecture')">Neoclassical Architecture</button>
+<button class="button" onclick="showInterest('Futuristic Architecture')">Futuristic Architecture</button>
+<button class="button" onclick="showInterest('Sustainable Architecture')">Sustainable Architecture</button>
+
+<button class="next-button" onclick="nextStep()">Next</button>
+
+
+
+
+<footer>
+    2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
+</footer>
+</body>
+</html>

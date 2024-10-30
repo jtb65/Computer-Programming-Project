@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles2.css">
+    </head>
+    <title>ArchiLink</title>
+
+    <div class="nav">
+        <div class="nav-icon"></div>
+        <a href="homebutton">Home</a>
+        <a href="sign-out-button">Log Out</a>
+        <a href="Download-button">Dowload Work</a>
+        <a href="Employee-button">Meet the Staff</a>
+        <a href="Contact-Button">Contact us</a>
+    
+    </div>
+    
+<h1 class="h1-page1">ArchiLink</h1>
+<body class="body-page1">
+<hr>
+<br>
+
+<H2 class="h2-page1">
+    Welcome to ArchiLink! This is the Number One website for begginer Architects! 
+    We have 4.7 star approval rating and we have one of the highest success rates for getting interships and beginner level jobs. 
+    We can't wait to help you build your future!
+</H2>
+   
+ <h3 class="h3-page1">Sign In</h3>   
+
+   <form action=" /server">
+    <label>
+        Username: <input type="text" placeholder="Enter Username">
+    </label>
+    <br>
+    <br>
+    <label>
+        Password: <input type="text" placeholder="Enter Password">
+    </label>
+    <br>
+    <br>
+    <label for="ID1">
+            <input class="ID1" type="Submit" value="Login">
+    </label>
+
+
+
+<footer>
+    2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
+</footer>
+</body>
+</html>

@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles2.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="Styles3.css">
+    <title>Your Profile</title>
+</head>
+<body>
+
     <div class="nav">
         <div class="nav-icon"></div>
         <a href="homebutton">Home</a>
         <a href="sign-out-button">Log Out</a>
-        <a href="Download-button">Dowload Work</a>
+        <a href="Download-button">Download Work</a>
         <a href="Employee-button">Meet the Staff</a>
-        <a href="Contact-Button">Contact us</a>
-    
+        <a href="Contact-Button">Contact Us</a>
     </div>
-    
+
     <h2>Your Profile</h2>
     <br>
-<h4>Upload Portfolio</h4>
-<form action="/upload">
-    <input type="file" id="Upload Portfolio" name="Upload Portfolio">
+    
+    <h4>Upload Portfolio</h4>
+    <form action="/upload">
+        <input type="file" id="upload-portfolio" name="upload-portfolio">
+        <br>
+    </form>
     <br>
-</form>
-<br>
-<h4>Upload Resume</h4>
-<form action="/upload">
-    <input type="file" id="Upload Resume" name="Upload Resume">
+
+    <h4>Upload Resume</h4>
+    <form action="/upload">
+        <input type="file" id="upload-resume" name="upload-resume">
+        <br>
+    </form>
     <br>
-</form>
-<br>
-<h4>Biography</h4>
-<textarea name="biography" id="biography" placeholder="Add a Biography">
-</textarea>
-<footer>
-    2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
-</footer>
+
+    <h4>Biography</h4>
+    <textarea name="biography" id="biography" placeholder="Add a Biography"></textarea>
+
+    <footer>
+        <p>2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE: (123)-456-7890 ~ E-MAIL: INFO@ARCHILINK.ORG</p>
+    </footer>
+    
 </body>
 </html>

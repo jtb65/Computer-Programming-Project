@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.nav .nav-icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Profile Section Styling */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+form input[type="file"], textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #ccc;
+}

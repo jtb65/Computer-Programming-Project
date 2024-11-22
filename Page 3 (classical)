@@ -1,27 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles2.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="Styles3modern.css">
+    <title>Classical Architecture Links</title>
+</head>
+<body>
 
-<h1><Classical Architecture/h1>
-<br>
-<li>
-The Pantheon
-The Parthenon
-The Erectheion
-</li>
+    <header>
+        <h1>Classical Architecture</h1>
+    </header>
 
+    <section class="links">
+        <p>Explore the work of some of the world's top classical architecture firms:</p>
+        <ul>
+            <li><a href="https://timothybryant.com/home" target="_blank">Visit Timothy Bryant Architects</a></li>
+            <li><a href="https://pzarchitects.com/" target="_blank">Visit PZ Architects</a></li>
+            <li><a href="https://www.fairfaxandsammons.com/firm/" target="_blank">Visit Fairfax & Sammons</a></li>
+        </ul>
+        </ul>
+    </section>
 
+    <footer>
+        <p>2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE: (123)-456-7890 ~ E-MAIL: INFO@ARCHILINK.ORG</p>
+    </footer>
 
-
-
-
-
-
-
-
-<footer>
-    2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
-</footer>
+</body>
+</html>

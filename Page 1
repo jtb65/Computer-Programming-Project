@@ -3,19 +3,9 @@
     <head>
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles2.css">
+    <link rel="stylesheet" href="Styles1.css">
     </head>
     <title>ArchiLink</title>
-
-    <div class="nav">
-        <div class="nav-icon"></div>
-        <a href="homebutton">Home</a>
-        <a href="sign-out-button">Log Out</a>
-        <a href="Download-button">Dowload Work</a>
-        <a href="Employee-button">Meet the Staff</a>
-        <a href="Contact-Button">Contact us</a>
-    
-    </div>
     
 <h1 class="h1-page1">ArchiLink</h1>
 <body class="body-page1">
@@ -23,8 +13,8 @@
 <br>
 
 <H2 class="h2-page1">
-    Welcome to ArchiLink! This is the Number One website for begginer Architects! 
-    We have 4.7 star approval rating and we have one of the highest success rates for getting interships and beginner level jobs. 
+    Welcome to ArchiLink! This is the Number One website for beginner Architects! 
+    We have high approval rating and one of the highest success rates for getting internships and beginner-level jobs. 
     We can't wait to help you build your future!
 </H2>
    
@@ -41,9 +31,9 @@
     </label>
     <br>
     <br>
-    <label for="ID1">
-            <input class="ID1" type="Submit" value="Login">
-    </label>
+    <a href="http://127.0.0.1:5500/Computer-Programming-Project/CS%20Project%20Page%203.html">
+        <input type="button" value="Login">
+    </a>
 
 
 

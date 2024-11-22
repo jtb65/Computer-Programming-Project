@@ -1,26 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles2.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="Styles3modern.css">
+    <title>Brutalist Architecture Links</title>
+</head>
 <body>
-<h1>Brustalist Architecture</h1>
-<br>
-<li>
-BLDUS
-Brooks + Scarpa
-Becker + Becker
-</li>
 
+    <header>
+        <h1>Brutalist Architecture</h1>
+    </header>
 
+    <section class="links">
+        <p>Explore the work of some of the world's top brutalist architecture firms:</p>
+        <ul>
+            <li><a href="https://www.beyerblinderbelle.com/" target="_blank">Visit Beyer Blinder Belle</a></li>
+            <li><a href="https://www.bcj.com/" target="_blank">Visit BCJ Architects</a></li>
+            <li><a href="https://alliedworks.com/" target="_blank">Visit Allied Works</a></li>
+        </ul>
+    </section>
 
-
-
-
-
+    <footer>
+        <p>2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE: (123)-456-7890 ~ E-MAIL: INFO@ARCHILINK.ORG</p>
+    </footer>
 
 </body>
-<footer>
-    2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
-</footer>
+</html>

@@ -8,35 +8,39 @@
 
     <div class="nav">
         <div class="nav-icon"></div>
-        <a href="http://127.0.0.1:5500/Computer-Programming-Project/CS%20Project%20Page%201.html">Log Out</a>
-    
+        <a href="http://127.0.0.1:5501/Computer-Programming-Project/CS%20Project%20Page%201%20with%20js.html" class="button">Logout</a>
     </div>
-    
-
-   
 </head>
-<div class="header">ArchiLink</div>
-<h1>Help us to figure out a little bit about you! What architectural style do you focus on?
-</h1>
 
 <body>
-    
-<h2>
+    <div class="header">ArchiLink</div>
+    <h1>Help us to figure out a little bit about you! What architectural style do you focus on?</h1>
+
     <div class="content">
-        <div id="message">What type of architecture are you into?!</div>
-</h2 class="h2-page2">
-<button class="button" onclick="showInterest('Modern Architecture')">Modern Architecture</button>
-<button class="button" onclick="showInterest('Classical Architecture')">Classical Architecture</button>
-<button class="button" onclick="showInterest('Gothic Architecture')">Gothic Architecture</button>
-<button class="button" onclick="showInterest('Brutalist Architecture')">Brutalist Architecture</button>
+        <h2 id="message">What type of architecture are you into?!</h2>
+        <a href="http://127.0.0.1:5501/Computer-Programming-Project/CS%20Project%20Page%203%20(modern).html" class="button">Modern Architecture</a>
+            <a href="http://127.0.0.1:5501/Computer-Programming-Project/CS%20Project%203%20(classical).html" class="button">Classical Architecture</a>
+            <a href="http://127.0.0.1:5501/Computer-Programming-Project/CS%20Project%203%20(gothic).html" class="button">Gothic Architecture</a>
+            <a href="http://127.0.0.1:5501/Computer-Programming-Project/CS%20Project%203%20(brutalist).html" class="button">Brutalist Architecture</a>
+    </div>
 
-<a href="http://127.0.0.1:5500/Computer-Programming-Project/CS%20Project%20Page%204%20(new).html">
-    <input type="button" value="Next">
-</a>
+    <a href="http://127.0.0.1:5501/Computer-Programming-Project/CS%20Project%20Page%204%20(new).html">
+        <input type="button" value="Next">
+    </a>
 
+    <footer>
+        2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
+    </footer>
 
-<footer>
-    2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
-</footer>
+    <script>
+        if (!localStorage.getItem('loggedIn')) {
+            window.location.href = 'http://127.0.0.1:5500/Computer-Programming-Project/CS%20Project%20Page%201.html';
+        }
+
+        function showInterest(interest) {
+            const message = document.getElementById('message');
+            message.innerHTML = "You are interested in: " + interest;
+        }
+    </script>
 </body>
 </html>

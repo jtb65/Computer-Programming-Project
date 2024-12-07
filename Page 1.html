@@ -2,43 +2,56 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles1.css">
+        <title>ArchiLink</title>
     </head>
-    <title>ArchiLink</title>
-    
-<h1 class="h1-page1">ArchiLink</h1>
-<body class="body-page1">
-<hr>
-<br>
+    <body class="body-page1">
+        <h1 class="h1-page1">ArchiLink</h1>
+        <hr>
+        <br>
 
-<H2 class="h2-page1">
-    Welcome to ArchiLink! This is the Number One website for beginner Architects! 
-    We have high approval rating and one of the highest success rates for getting internships and beginner-level jobs. 
-    We can't wait to help you build your future!
-</H2>
-   
- <h3 class="h3-page1">Sign In</h3>   
+        <h2 class="h2-page1">
+            Welcome to ArchiLink! This is the Number One website for beginner Architects! 
+            We have a high approval rating and one of the highest success rates for getting internships and beginner-level jobs. 
+            We can't wait to help you build your future!
+        </h2>
+        
+        <h3 class="h3-page1">Sign In</h3>
 
-   <form action=" /server">
-    <label>
-        Username: <input type="text" placeholder="Enter Username">
-    </label>
-    <br>
-    <br>
-    <label>
-        Password: <input type="text" placeholder="Enter Password">
-    </label>
-    <br>
-    <br>
-    <a href="http://127.0.0.1:5500/Computer-Programming-Project/CS%20Project%20Page%203.html">
-        <input type="button" value="Login">
-    </a>
+        <form id="loginForm">
+            <label>
+                Username: <input type="text" id="username" placeholder="Enter Username" required>
+            </label>
+            <br><br>
+            <label>
+                Password: <input type="password" id="password" placeholder="Enter Password" required>
+            </label>
+            <br><br>
+            <button type="submit">Login</button>
+        </form>
 
+        <footer>
+            2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
+        </footer>
 
+        <script>
+            document.getElementById('loginForm').addEventListener('submit', function(event) {
+                event.preventDefault(); 
 
-<footer>
-    2024 ARCHILINK. ALL RIGHTS RESERVED ~ PHONE:(123)-456-7890 ~ E-MAIL: INFO @ARCHILINK.ORG
-</footer>
-</body>
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+
+                const validUsername = 'user123';
+                const validPassword = 'password123';
+
+                if (username === validUsername && password === validPassword) {
+                    localStorage.setItem('loggedIn', 'true');
+                    window.location.href = 'http://127.0.0.1:5501/Computer-Programming-Project/CS%20Project%20Page%203%20with%20js.html';
+                } else {
+                    alert('Invalid username or password. Please try again.');
+                }
+            });
+        </script>
+    </body>
 </html>
